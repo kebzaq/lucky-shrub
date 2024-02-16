@@ -1,0 +1,129 @@
+body {
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;    
+}
+
+h1 {
+    font-size: 3rem;
+    width: fit-content;
+    margin: 2rem 0;
+}
+
+#banner h1 {
+    color: yellow;
+    background-color: #bc84648c;
+    padding: 0.75rem;
+}
+#banner {
+    background: url('/luckyshrub/images/shrub-art1.png') top / cover no-repeat; 
+    padding: 1rem;
+ }
+ 
+ #banner p {
+     color: whitesmoke;
+     background-color: #bc84648c;
+     padding: 0.5rem;
+     width: fit-content;
+ }
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 3rem 0;
+    background-color: #e9a076;
+    border-radius: 0.5rem;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 0.7rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+    text-decoration-color: green;
+}
+
+section {
+    display: flex;    
+    border-radius: 0.5rem;
+    flex-wrap: wrap;
+    gap: .7rem;
+    margin: 2rem 0;
+}
+
+article {
+    flex: 1;
+    border-radius: 0.5rem;
+    padding: .5rem .5rem;
+    gap: 1.5rem;
+}
+
+img {
+    max-width: 5rem;
+    
+}
+
+.article {
+    background-color: #e9a076;
+}
+
+article img {
+    max-width: 100%;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.5s ease-in-out;
+}
+
+article img:hover {
+    transform: scale(1.3);
+}
+
+article div {
+    display: inline-block;
+    overflow: hidden;
+    max-width: 100%;
+    width: 100%;
+    height: 300px;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer img {
+    max-width: 2.5rem;
+}
+
+#copyright {
+    border-top: 2px solid black;
+    text-align: center;
+}
